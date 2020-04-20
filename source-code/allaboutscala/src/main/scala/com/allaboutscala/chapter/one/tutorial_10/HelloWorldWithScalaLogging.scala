@@ -1,6 +1,6 @@
 package com.allaboutscala.chapter.one.tutorial_10
 
-import com.typesafe.scalalogging.LazyLogging
+import com.typesafe.scalalogging.StrictLogging
 
 /**
   * Created by Nadim Bahadoor on 06/05/2016.
@@ -24,7 +24,7 @@ import com.typesafe.scalalogging.LazyLogging
   * License for the specific language governing permissions and limitations under
   * the License.
   */
-object HelloWorldWithScalaLogging extends App with LazyLogging {
+object HelloWorldWithScalaLogging extends App with StrictLogging {
 
   logger.info("Hello World from Scala Logging")
 
